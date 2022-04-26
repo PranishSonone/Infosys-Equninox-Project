@@ -488,6 +488,7 @@ nav .menu-btn i {
 
 .left-side-img img {
     max-width: 85%;
+    -webkit-animation:zoom 2s ease;
 }
 
 .young-living-tab-div {
