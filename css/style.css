@@ -634,6 +634,7 @@ nav .menu-btn i {
 
 .owl-carousel .owl-item img {
     width: 156px;
+    -webkit-animation:zoom 2s ease;
 }
 
 .sopt-light-item {
