@@ -1,0 +1,128 @@
+
+    //  banner slider
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("bannerSlides");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+
+    }
+    //  youg tab slider 
+
+    let slideIndextwo = 1;
+    showSlidestwo(slideIndextwo);
+
+    function plusSlidestwo(n) {
+      showSlidestwo(slideIndextwo += n);
+    }
+
+    function currentSlidetwo(n) {
+      showSlidestwo(slideIndextwo = n);
+    }
+
+    function showSlidestwo(n) {
+      let slideindextwo;
+      let i;
+      let slidestwo = document.getElementsByClassName("slider-tab");
+      if (n > slidestwo.length) {
+        slideIndextwo = 1
+      }
+      if (n < 1) {
+        slideIndextwo = slidestwo.length
+      }
+      for (i = 0; i < slidestwo.length; i++) {
+        slidestwo[i].style.display = "none";
+      }
+
+      slidestwo[slideIndextwo - 1].style.display = "block";
+
+    }
+
+    // t-mobile slider
+
+    let slideIndexthree = 1;
+
+    showSlidesthree(slideIndexthree);
+
+    function plusSlidesthree(n) {
+      showSlidesthree(slideIndexthree += n);
+    }
+
+    function currentSlidethree(n) {
+      showSlidesthree(slideIndexthree = n);
+    }
+
+    function showSlidesthree(n) {
+      let slideindexthree;
+      let i;
+      let slidesthree = document.getElementsByClassName("slider-tab2");
+      if (n > slidesthree.length) {
+        slideIndexthree = 1
+      }
+      if (n < 1) {
+        slideIndexthree = slidesthree.length
+      }
+      for (i = 0; i < slidesthree.length; i++) {
+        slidesthree[i].style.display = "none";
+      }
+
+      slidesthree[slideIndexthree - 1].style.display = "block";
+
+    }
+
+    // javscript for tab
+    document.getElementById("young-living-id").addEventListener("click", function () {
+      document.getElementById("young-sec").style.display = "block";
+      document.getElementById("t-mobile-sec").style.display = "none";
+      document.getElementById("young-living-id").classList.add("tab-active")
+      document.getElementById("t-mobile-id").classList.remove("tab-active")
+    });
+    document.getElementById("t-mobile-id").addEventListener("click", function () {
+      document.getElementById("t-mobile-sec").style.display = "block";
+      document.getElementById("young-sec").style.display = "none";
+      document.getElementById("t-mobile-id").classList.add("tab-active")
+      document.getElementById("young-living-id").classList.remove("tab-active")
+      document.getElementById("young-living-id").classList.remove("background")
+      document.getElementById("Linking_2").classList.remove("tab-active")
+      document.getElementById("young-living-id").classList.remove("background")
+
+    });
+ // last product slider
+ $('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 100,
+  nav: true,
+  navText:["<i class='fa fa-angle-left '></i>","<i class='fa fa-angle-right'></i>"],
+  dots:false,
+  responsive: {
+      0: {
+          items: 1
+      },
+      768: {
+          items: 1
+      },
+      1000: {
+          items: 3
+      }
+  }
+})
