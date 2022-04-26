@@ -99,9 +99,8 @@ nav {
 .logo {
     width: 184px;
 }
-.logo a img{
 
-}
+.logo a img {}
 
 nav ul li {
     padding-left: 70px;
@@ -120,6 +119,7 @@ nav ul li {
 nav ul li a {
     font-size: 15px;
     font-family: 'NeuzeitGro-Bol';
+    color: #061838;
 
 }
 
@@ -208,7 +208,8 @@ nav .menu-btn i {
     color: #575757;
 
 }
-.baner-slider{
+
+.baner-slider {
     position: relative;
 }
 
@@ -218,13 +219,15 @@ nav .menu-btn i {
     padding-left: 133px;
     /* position: relative; */
     /* position: absolute; */
-  
+
 }
-.baneer-no{
+
+.baneer-no {
     font-size: 30px;
     font-family: 'NeuzeitGro-Bol';
 }
-.banner-img{
+
+.banner-img {
     display: flex;
     justify-content: center;
 }
@@ -432,20 +435,22 @@ nav .menu-btn i {
     padding-top: 30px;
 }
 
-.background{
+.background {
     background: #CCD7FA;
 }
+
 .young-living {
-   cursor: pointer;
+    cursor: pointer;
 }
 
 .young-living:hover {
     background: #CCD7FA;
 }
 
-.tab-active{
+.tab-active {
     background: #CCD7FA;
 }
+
 .t-mobile img {
     cursor: pointer;
     padding: 9px;
@@ -470,7 +475,7 @@ nav .menu-btn i {
 }
 
 .young-living-tab-div {
-    
+
     position: relative;
 
 }
@@ -639,7 +644,8 @@ nav .menu-btn i {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 36px;
 }
-.spot-btn{
+
+.spot-btn {
     font-size: 20px;
     padding: 14px 60px;
 }
@@ -678,36 +684,42 @@ nav .menu-btn i {
     -ms-border-radius: 50px !important;
     -o-border-radius: 50px !important;
 }
-.footer{
+
+.footer {
     background-color: #000000;
 
 }
-.footer ul{
+
+.footer ul {
     flex-direction: column;
     padding-right: 50px;
 }
-.footer-left-link{
+
+.footer-left-link {
     padding-top: 97px;
     max-width: 70%;
-    
-   display: flex;
-   justify-content:space-around;
-   padding-left: 98px;
+
+    display: flex;
+    justify-content: space-around;
+    padding-left: 98px;
 }
-.footer-left-link h4{
+
+.footer-left-link h4 {
     color: #FFFFFF;
     font-size: 30px;
     line-height: 40px;
     font-family: 'NeuzeitGro-Bol';
 }
-.footer-left-link ul li a{
+
+.footer-left-link ul li a {
     color: #8D8C8C;
     font-size: 23px;
     line-height: 35px;
     font-family: 'NeuzeitGro-Bol';
-   
+
 }
-.footer-right-text h4{
+
+.footer-right-text h4 {
     color: #FFFFFF;
     font-size: 30px;
     line-height: 40px;
@@ -716,19 +728,22 @@ nav .menu-btn i {
     cursor: pointer;
 
 }
-.footer-right-text address{
+
+.footer-right-text address {
     color: #8D8C8C;
     font-size: 23px;
     line-height: 35px;
     font-family: 'NeuzeitGro-Bol';
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
-    
+
 }
-.footer-text{
+
+.footer-text {
     padding-top: 205px;
 }
 
@@ -846,7 +861,8 @@ nav .menu-btn i {
     .slider-spot .slide {
         width: 354px;
     }
-    .btn{
+
+    .btn {
         margin-bottom: 10px;
     }
 
@@ -972,46 +988,58 @@ nav .menu-btn i {
         width: 80px;
         height: 80px;
     }
-    .spot-light-section h2{
+
+    .spot-light-section h2 {
         font-size: 70px;
     }
-    .spot-light-section h4{
+
+    .spot-light-section h4 {
         font-size: 16px;
         padding-bottom: 25px;
-	   padding-top: 21px;
+        padding-top: 21px;
     }
+
     .item {
         text-align: center;
         padding-bottom: 50px;
     }
-    .spotlight-wrapper .owl-prev{
+
+    .spotlight-wrapper .owl-prev {
         width: 70px !important;
         height: 70px !important;
     }
-    .spotlight-wrapper .owl-next{
+
+    .spotlight-wrapper .owl-next {
         width: 70px !important;
         height: 70px !important;
     }
-    .footer-left-link h4{
+
+    .footer-left-link h4 {
         font-size: 25px;
     }
-    .footer-left-link ul li{
+
+    .footer-left-link ul li {
         font-size: 18px
     }
-    .footer-right-text h4{
+
+    .footer-right-text h4 {
         font-size: 25px;
     }
-    .footer-right-text address{
+
+    .footer-right-text address {
         font-size: 18px;
 
     }
+
     .slider-numbar-change p {
         font-size: 20px;
         color: #575757;
     }
+
     .right-e-commerce-image img {
-       	padding-right: 70px;;
-           width: 65%;
+        padding-right: 70px;
+        ;
+        width: 65%;
     }
 
 }
@@ -1109,10 +1137,12 @@ nav .menu-btn i {
         height: 40px;
         font-size: 16px;
     }
-    .footer-right-text address{
+
+    .footer-right-text address {
         text-align: right;
     }
-    .footer-left-link{
+
+    .footer-left-link {
         padding-left: 64px;
     }
 
@@ -1125,7 +1155,7 @@ nav .menu-btn i {
         position: fixed;
         /* top: -100%;
         left: 0px;     ye parameter se upaR SE aayega  */
-        top:92px;
+        top: 92px;
         left: -100%;
         background: #111;
         height: 100vh;
@@ -1210,7 +1240,7 @@ nav .menu-btn i {
     }
 
     .indicator {
-       
+
         padding: 0px;
         padding-top: 30px;
         justify-content: center;
@@ -1341,21 +1371,26 @@ nav .menu-btn i {
         width: 100%;
         margin-left: auto;
     }
-    .footer-content{
+
+    .footer-content {
         flex-direction: column;
-       
+
     }
-    .footer-text{
+
+    .footer-text {
         padding-top: 30px;
         text-align: left;
     }
-    .footer-right-text h4{
+
+    .footer-right-text h4 {
         text-align: center;
     }
-    .footer-right-text address{
+
+    .footer-right-text address {
         text-align: center;
     }
-    .footer-left-link{
+
+    .footer-left-link {
         max-width: 100%;
     }
 
@@ -1363,7 +1398,7 @@ nav .menu-btn i {
 
 @media screen and (max-width: 768px) {
 
-    nav .ul{
+    nav .ul {
         top: 86px
     }
 
@@ -1412,7 +1447,8 @@ nav .menu-btn i {
     .make-commerce-human-text {
         padding-left: 28px;
     }
-    .left-e-commerce-text{
+
+    .left-e-commerce-text {
         width: 50%;
     }
 
@@ -1483,12 +1519,15 @@ nav .menu-btn i {
     .resource-text-section ul {
         flex-direction: column;
     }
-    .footer-left-link{
+
+    .footer-left-link {
         padding-left: 10px;
     }
-    .footer-left-link h4{
+
+    .footer-left-link h4 {
         font-size: 18px;
     }
+
     .footer-left-link ul li {
         font-size: 15px;
     }
@@ -1499,6 +1538,7 @@ nav .menu-btn i {
     .left-e-commerce-text {
         width: 100%;
     }
+
     .left-e-commerce-text h2 {
         padding-top: 21px;
         line-height: 25px;
@@ -1609,14 +1649,17 @@ nav .menu-btn i {
     .resource-heading-img h2 {
         font-size: 56px
     }
-    .footer-left-link{
+
+    .footer-left-link {
         padding-top: 35px;
         flex-direction: column;
     }
-    .slider-tab-btn{
-        width: 130px;;
+
+    .slider-tab-btn {
+        width: 130px;
+        ;
     }
-    
+
 
 
 
