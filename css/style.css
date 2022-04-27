@@ -445,7 +445,13 @@ nav .menu-btn i {
 }
 
 .btn2 {
+    background-color: #3564FF;
+    color: #FFFFFF;
+    font-size:24px ;
+    cursor: pointer;
+    font-family: 'NeuzeitGroteskW01';
     padding: 25px 72px;
+    
 }
 
 .make-it-seamless-img{
@@ -977,8 +983,16 @@ nav .menu-btn i {
     width: 75%;
 }
 .btn2 {
-    padding: 22px 60px;
-    font-size: 16px;
+    margin-top: 10px;
+    padding: 22px 30px;
+    font-size: 12px;
+}
+.indicator {
+    padding-top: 40px;
+}
+.btn2 {
+	padding: 22px 60px;
+	font-size: 16px;
 }
 
 }
@@ -1020,6 +1034,7 @@ nav .menu-btn i {
     .make-it-for-people-text ul {
         padding-left: 68px;
     }
+  
 
     .left-solution-icon {
         padding-left: 63px;
@@ -1275,6 +1290,10 @@ nav .menu-btn i {
    .span-2 img{
     width: 75%;
      }
+     .btn2 {
+        padding: 14px 35px;
+        font-size: 16px;
+    }
      
 
 }
@@ -1625,6 +1644,7 @@ nav .menu-btn i {
     .right-solution-text p {
         font-size: 14px;
         padding: 20px 87px;
+        padding-bottom: 30px;
     }
 
     .left-solution-icon h3 {
@@ -1690,7 +1710,43 @@ nav .menu-btn i {
     .footer-left-link ul li {
         font-size: 15px;
     }
-  
+    .spot-light-section h4{
+        height: unset;
+    }
+    .spotlight-wrapper .owl-prev ,.spotlight-wrapper .owl-next{
+           width: 50px;
+           height: 50px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+    }
+    .owl-next{
+        width: 50px ;
+        height: 50px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .fa ,.fa-angle-right {
+        font-size: 50%;
+    }
+    .spotlight-wrappe .owl-theme .owl-nav{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .owl-prev {
+        width: 50px !important;
+        display: flex !important;
+    }
+    .owl-next{
+        display: flex !important;
+    }
 
 }
 
@@ -1763,6 +1819,7 @@ nav .menu-btn i {
     .right-solution-text p {
         font-size: 14px;
         padding: 20px 0px;
+
     }
 
     .young-living {

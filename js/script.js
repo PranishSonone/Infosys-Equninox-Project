@@ -148,7 +148,7 @@ $('.owl-carousel').owlCarousel({
   autoHeight: true,
   nav: true,
   margin: 10,
-  navText: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'></i>"],
+  navText: ["<span class='fa fa-angle-left '></span>", "<span class='fa fa-angle-right'></span>"],
   dots: false,
   responsive: {
     0: {
