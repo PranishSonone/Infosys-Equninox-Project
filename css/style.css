@@ -237,6 +237,10 @@ nav .menu-btn i {
     /* position: absolute; */
 
 }
+.indicator button{
+    outline: none;
+    border: none;
+}
 
 .baneer-no {
     font-size: 30px;
@@ -246,6 +250,7 @@ nav .menu-btn i {
 .banner-img {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .span-1,
@@ -320,6 +325,7 @@ nav .menu-btn i {
     background-color: #3564FF;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 
 }
 
@@ -328,6 +334,7 @@ nav .menu-btn i {
 }
 
 .make-it-for-people {
+    background: linear-gradient(#F5F5F5, #FFFFFF);
     padding-top: 70px;
 }
 
@@ -336,8 +343,8 @@ nav .menu-btn i {
 }
 
 .make-it-for-people-text h2 {
-    font-size: 120px;
-    letter-spacing: 10px;
+    font-size: 100px;
+    /* letter-spacing: 10px; */
     line-height: 104px;
     font-family: 'NeuzeitGro-Bol';
     padding-left: 143px;
@@ -424,7 +431,7 @@ nav .menu-btn i {
     padding: 25px 72px;
 }
 
-.my-img {
+.make-it-seamless-img{
     width: 97%;
 }
 
@@ -485,10 +492,14 @@ nav .menu-btn i {
     align-items: center;
     /* padding-left: 300px; */
 }
+.left-side-img {
+    overflow: hidden;
+}
 
 .left-side-img img {
     max-width: 85%;
     -webkit-animation:zoom 2s ease;
+    
 }
 
 .young-living-tab-div {
@@ -646,6 +657,16 @@ nav .menu-btn i {
 .item {
     text-align: center;
     padding-bottom: 90px;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 .item h4 {
@@ -764,6 +785,16 @@ nav .menu-btn i {
 .footer-text {
     padding-top: 205px;
 }
+.indicator-change-background{
+    background-color: #B8D8FE;
+}
+.indicator-change-background2{
+    background-color:#3564FF;
+}
+.tab-slider-indicator{
+    background-color:#3564FF;
+}
+
 
 
 
@@ -982,6 +1013,10 @@ nav .menu-btn i {
     .resourcs-text p {
         font-size: 14px;
         padding-bottom: 13px;
+    }
+    .btn {
+        padding: 12px;
+        font-size: 13px;
     }
 
     .btn3 {
@@ -1426,6 +1461,9 @@ nav .menu-btn i {
         align-items: center;
         text-align: center;
     }
+    .right-e-commerce-image img{
+        padding-bottom: 10px;
+    }
 
     .left-e-commerce-text h2 {
         padding-top: 30px;
@@ -1440,6 +1478,7 @@ nav .menu-btn i {
         line-height: 20px;
         font-size: 1.3rem;
         text-align: center;
+        max-width: 100%;
 
     }
 
@@ -1449,7 +1488,8 @@ nav .menu-btn i {
     }
 
     .slider-numbar-change {
-        display: none;
+        top: 100%;
+        width: 100%;
     }
 
     .span-1,
@@ -1467,7 +1507,8 @@ nav .menu-btn i {
     }
 
     .left-e-commerce-text {
-        width: 50%;
+        padding-top: 66px;
+        width: 100%;
     }
 
     .make-commerce-human-text h2 {
@@ -1568,8 +1609,10 @@ nav .menu-btn i {
     .left-e-commerce-text p {
         padding-top: 22px;
         line-height: 20px;
+        padding-bottom: 20px;
         font-size: 1.3rem;
         text-align: center;
+        width: 100%;
 
     }
 
@@ -1626,7 +1669,7 @@ nav .menu-btn i {
     }
 
     .greenline {
-        width: 70%;
+        width: 90%;
     }
 
     .slider-inside-tab h2 {
@@ -1676,6 +1719,12 @@ nav .menu-btn i {
     .slider-tab-btn {
         width: 130px;
         ;
+    }
+    .slider-numbar-change p {
+        font-size: 15px;
+    }
+    .footer-left-link ul li a{
+        font-size: 16px;
     }
 
 
