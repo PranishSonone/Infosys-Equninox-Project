@@ -141,6 +141,7 @@ nav ul li a {
 
 nav .ul a:hover,
 nav .ul a.active {
+    padding:10px 20px;
     background-color: black;
     cursor: pointer;
     color: white;
@@ -202,7 +203,7 @@ nav .menu-btn i {
 }
 
 .right-e-commerce-image img {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     max-width: 84%;
     height: auto;
 
@@ -269,13 +270,25 @@ nav .menu-btn i {
     justify-content: center;
     margin-right: 28px;
 }
+.span-1 span,
+.span-2 span{
+    display: flex;
+    justify-content: center;
+}
+.span-1 img,
+.span-2 img{
+    width: 90%;
+}
 
 .span-2 {
     background-color: #3564FF;
 }
-
+.make-commerce-human{
+    padding-bottom: 100px;
+}
 .make-commerce-human-row {
     display: flex;
+    align-items: center;
 }
 
 .make-commerce-human-img {
@@ -330,7 +343,11 @@ nav .menu-btn i {
 }
 
 .two-btn {
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
+}
+.make-commerce-human-text button{
+
+
 }
 
 .make-it-for-people {
@@ -624,7 +641,7 @@ nav .menu-btn i {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    background-color: #575757;
+    background-color: #000000;
     padding: 12px;
     cursor: pointer;
 }
@@ -702,7 +719,7 @@ nav .menu-btn i {
 }
 
 .spotlight-wrapper .owl-prev {
-    background-color: #B8D8FE !important;
+    background: #1584FE !important;
     width: 100px !important;
     height: 100px !important;
     border-radius: 50px !important;
@@ -722,6 +739,11 @@ nav .menu-btn i {
     -moz-border-radius: 50px !important;
     -ms-border-radius: 50px !important;
     -o-border-radius: 50px !important;
+}
+.owl-theme .owl-nav .disabled {
+    opacity: .5;
+    /* background-color: #1584FE; */
+    cursor: default;
 }
 
 .footer {
@@ -794,6 +816,29 @@ nav .menu-btn i {
 .tab-slider-indicator{
     background-color:#3564FF;
 }
+.make-commerce-btn{
+    font-size: 24px;
+    width: 321px;
+    padding: 23px 27px 21px 28px;
+   background-color: #3564FF;
+   color: #FFFFFF;
+   border: none;
+
+}
+.make-commerce-btn span :hover{
+    background-color: #FFFFFF;
+    color:#3564FF ;
+}
+.make-commerce-btn {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'NeuzeitGroteskW01';
+    
+
+}
+.two-btn{
+    padding-bottom: 10px;
+}
 
 
 
@@ -858,13 +903,13 @@ nav .menu-btn i {
     }
 
     .btn {
-        padding: 23px;
-        font-size: 17px;
+        padding: 12px;
+        font-size: 13px;
     }
 
     .make-it-for-people-img img {
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .make-it-for-people-text h2 {
@@ -914,6 +959,27 @@ nav .menu-btn i {
     .btn {
         margin-bottom: 10px;
     }
+    .make-commerce-btn{
+    font-size: 16px;
+    width: 221px;
+    padding: 22px 27px 21px 28px;
+   background-color: #3564FF;
+
+}
+.make-commerce-btn a{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'NeuzeitGroteskW01';
+
+}
+.span-1 img,
+.span-2 img{
+    width: 75%;
+}
+.btn2 {
+    padding: 22px 60px;
+    font-size: 16px;
+}
 
 }
 
@@ -1050,6 +1116,7 @@ nav .menu-btn i {
         font-size: 16px;
         padding-bottom: 25px;
         padding-top: 21px;
+        /* height: 100px */
     }
 
     .item {
@@ -1094,6 +1161,11 @@ nav .menu-btn i {
         ;
         width: 65%;
     }
+    .btn2 {
+        padding: 22px 60px;
+        font-size: 16px;
+    }
+
 
 }
 
@@ -1161,6 +1233,7 @@ nav .menu-btn i {
     .young-living img {
         max-width: 95%;
     }
+  
 
     .tab-slider-indicator {
         width: 65px;
@@ -1198,6 +1271,11 @@ nav .menu-btn i {
     .footer-left-link {
         padding-left: 64px;
     }
+    .span-1 img,
+   .span-2 img{
+    width: 75%;
+     }
+     
 
 }
 
@@ -1345,6 +1423,10 @@ nav .menu-btn i {
         max-width: 100%;
         text-align: center;
     }
+    .young-living img{
+        padding-bottom: 6px;
+    }
+    
 
     .right-solution-text p {
         max-width: 100%;
@@ -1393,10 +1475,7 @@ nav .menu-btn i {
         width: 24%;
     }
 
-    .t-mobile img {
-        width: 86%;
-    }
-
+  
     .t-mobile {
         margin-left: 30px;
         padding-top: 23px;
@@ -1446,6 +1525,14 @@ nav .menu-btn i {
     .footer-left-link {
         max-width: 100%;
     }
+    .spot-light-section h4{
+        height:100px ;
+    }
+    .tab-slider-indicator img{
+        width: 80%;
+    }
+    
+
 
 }
 
@@ -1548,14 +1635,24 @@ nav .menu-btn i {
     .slider-inside-tab h2 {
         font-size: 40px;
     }
-
+    .young-living img {
+        padding-bottom: 10px;
+        padding-top: 3px;
+    }
     .t-mobile {
         width: 25%;
     }
 
-    .t-mobile img {
+    /* .t-mobile img {
         padding: 0px;
         width: 81%;
+    } */
+    .t-mobile img {
+        padding-left: 22px;
+        padding-bottom: 10px;
+        width: 81%;
+        padding-right: 0px;
+       
     }
 
     .right-side-text p {
@@ -1578,6 +1675,9 @@ nav .menu-btn i {
     .resource-text-section ul {
         flex-direction: column;
     }
+    .resource-text-section ul li{
+        flex-direction: unset;
+    }
 
     .footer-left-link {
         padding-left: 10px;
@@ -1590,6 +1690,7 @@ nav .menu-btn i {
     .footer-left-link ul li {
         font-size: 15px;
     }
+  
 
 }
 
@@ -1703,8 +1804,11 @@ nav .menu-btn i {
     }
 
     .btn {
-        padding: 5px;
+        padding: 12px;
         font-size: 13px;
+    }
+    .make-commerce-human-text button {
+        margin-bottom: 10px;
     }
 
     .resource-heading-img h2 {
@@ -1726,7 +1830,16 @@ nav .menu-btn i {
     .footer-left-link ul li a{
         font-size: 16px;
     }
-
+    .two-btn {
+        padding-bottom: unset;
+    }
+    .resource-text-section ul li{
+        flex-direction: column;
+    }
+    .make-commerce-btn{
+        font-size: 12px;
+	    width: 176px;
+    }
 
 
 
