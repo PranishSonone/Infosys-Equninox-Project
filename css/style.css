@@ -102,9 +102,10 @@ nav {
 
 .logo a img {}
 
-nav ul li {
+nav ul li  {
     color: #061838;
     padding-left: 70px;
+    /* padding: 10px 10px; */
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -141,7 +142,8 @@ nav ul li a {
 
 nav .ul a:hover,
 nav .ul a.active {
-    padding:10px 20px;
+  
+   padding: 10px 0px;
     background-color: black;
     cursor: pointer;
     color: white;
@@ -879,7 +881,7 @@ nav .menu-btn i {
     }
 
     nav ul li {
-        padding-left: 50px;
+        padding-left: 20px;
 
     }
 
