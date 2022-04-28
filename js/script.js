@@ -145,7 +145,7 @@ document.getElementById("t-mobile-id").addEventListener("click", function () {
 $('.owl-carousel').owlCarousel({
   // loop: true,
   margin: 100,
-  autoHeight: true,
+  // autoHeight: true,
   nav: true,
   margin: 10,
   navText: ["<span class='fa fa-angle-left '></span>", "<span class='fa fa-angle-right'></span>"],

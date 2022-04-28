@@ -133,7 +133,8 @@ nav ul li  {
     
 }
 
-nav ul li a {
+nav ul li a  {
+    padding:0px 10px;
     font-size: 15px;
     font-family: 'NeuzeitGro-Bol';
     color: #061838;
@@ -143,7 +144,7 @@ nav ul li a {
 nav .ul a:hover,
 nav .ul a.active {
   
-   padding: 10px 0px;
+   padding: 10px 10px;
     background-color: black;
     cursor: pointer;
     color: white;
@@ -336,7 +337,7 @@ nav .menu-btn i {
     padding: 27px;
     font-size: 24px;
     font-family: 'NeuzeitGro-Bol';
-    margin-right: 20px;
+    /* margin-right: 20px; */
     background-color: #3564FF;
     color: #FFFFFF;
     cursor: pointer;
@@ -532,6 +533,9 @@ nav .menu-btn i {
     position: relative;
 
 }
+ .make-it-for-people-img img{
+     height: 100%;
+ } 
 
 .prev,
 .next {
@@ -917,7 +921,7 @@ nav .menu-btn i {
 
     .make-it-for-people-img img {
         width: 100%;
-        /* height: 100%; */
+        height: 100%;
     }
 
     .make-it-for-people-text h2 {
@@ -1413,6 +1417,7 @@ nav .menu-btn i {
 
     .make-it-for-people-img img {
         width: 82%;
+       
     }
 
     .make-it-for-people-text h2 {
@@ -1748,6 +1753,15 @@ nav .menu-btn i {
     }
     .owl-next{
         display: flex !important;
+    }
+    .spotlight-wrapper .owl-prev {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .spotlight-wrapper .owl-next {
+        width: 40px !important;
+        height: 40px !important;
     }
 
 }
