@@ -11,15 +11,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Infosys Equninox</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Infosys Equninox</title>
+ 
 
 </head>
 
@@ -32,9 +33,10 @@
             <img src="images/logo.png" alt="logo" class="logo">
           </a>
         </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-          <i class="fa fa-list-ul"></i>
+        <input type="checkbox" id="check">
+        <label for="check" class="menu-btn">
+          <i class="fa-solid fa-bars" id="hamburger"></i>
+          <i class="fa-solid fa-times" id="cross"></i>
         </label>
         <ul class="ul">
           <li> <a href="">PLATFORM </a></li>
@@ -51,13 +53,13 @@
     </div>
 
   </header>
-  <section class="e-commerce-simplified slider">
+  <section class="e-commerce-simplified slider "> -
     <div class="container">
 
-      <div class="baner-slider">
-        <div class="bannerSlides fade">
-          <div class="e-commerce-slider-sec">
-            <div class="left-e-commerce-text">
+      <div class="baner-slider  ">
+        <div class="bannerSlides fade " >
+          <div class="e-commerce-slider-sec ">
+            <div class="left-e-commerce-text ">
               <h2>E-Commerce
                 Simplified
               </h2>
@@ -80,7 +82,7 @@
         </div>
         <div class="bannerSlides fade">
           <div class="e-commerce-slider-sec">
-            <div class="left-e-commerce-text">
+            <div class="left-e-commerce-text ">
               <h2>F-Commerce
                 Simplified
               </h2>
@@ -102,9 +104,9 @@
           </div>
 
         </div>
-        <div class="bannerSlides fade">
+        <div class="bannerSlides fade " >
           <div class="e-commerce-slider-sec">
-            <div class="left-e-commerce-text">
+            <div class="left-e-commerce-text ">
               <h2>G-Commerce
                 Simplified
               </h2>
@@ -113,7 +115,7 @@
                 consumer needs using our microservices-based, cloud native API solution.
               </p>
             </div>
-            <div class="right-e-commerce-image">
+            <div class="right-e-commerce-image      ">
               <div class="banner-img"><img src="images/banner-slider-girl-img2.png" alt=""></div>
               <div class="slider-numbar-change">
                 <p>Voice Search
@@ -126,9 +128,9 @@
           </div>
 
         </div>
-        <div class="bannerSlides fade">
+        <div class="bannerSlides fade  " >
           <div class="e-commerce-slider-sec">
-            <div class="left-e-commerce-text">
+            <div class="left-e-commerce-text ">
               <h2>H-Commerce
                 Simplified
               </h2>
@@ -150,9 +152,9 @@
           </div>
 
         </div>
-        <div class="bannerSlides fade">
+        <div class="bannerSlides fade  " >
           <div class="e-commerce-slider-sec">
-            <div class="left-e-commerce-text">
+            <div class="left-e-commerce-text ">
               <h2>I-Commerce
                 Simplified
               </h2>
@@ -176,8 +178,8 @@
 
         </div>
         <div class="indicator">
-          <button class="span-1" id="next-btn1" onclick="plusSlides(-1)" disabled> <span  ><img src="images/left-arrow.png" alt=""></span> </button>
-          <button class="span-2" id="next-btn2" onclick="plusSlides(1)"> <span ><img src="images/right-arrow.png" alt=""></span> </button>
+          <button class="span-1" id="next-btn1" onclick="plusSlides(-1)" disabled> <span  ><span class='fa fa-angle-left slider-indicator'></span></span> </button>
+          <button class="span-2" id="next-btn2" onclick="plusSlides(1)"> <span ><span class='fa fa-angle-right slider-indicator'></span></span> </button>
         </div>
       </div>
 
@@ -187,8 +189,8 @@
     </div>
     </div>
 
-  </section>
-  <section class="make-commerce-human">
+  </section>  
+   <section class="make-commerce-human">
     <div class="container">
       <div class="make-commerce-human-row">
         <div class="make-commerce-human-img">
@@ -364,7 +366,7 @@
             Vestibulum semper leo non ornare pellentesque.
             Pellentesque faucibus,.
           </p>
-          <a class=" btn2">SEE MORE</a>
+          <a class=" right-solution-text-btn">SEE MORE</a>
         </div>
 
 
@@ -373,6 +375,7 @@
     </div>
 
   </section>
+ 
   <section class="slider-inside-tab">
     <div class="container">
       <h2>Hear from Our Customers</h2>
@@ -397,7 +400,7 @@
               <h3>Telecom 1</h3>
               <p>Digital B2B2C and B2B with average ordering time reduced by 20% for
                 business and end users.and their customers.</p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+              <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
 
           </div>
@@ -413,7 +416,7 @@
               <h3>Telecom 2</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi minus dignissimos
                 excepturi at quae rem similique animi aspernatur placeat!</p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+              <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
 
           </div>
@@ -428,14 +431,13 @@
               <h3>Telecom 3</h3>
               <p>Digital B2B2C and B2B with average ordering time reduced by 20% for
                 business and end users.and their customers.</p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+              <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
           </div>
         </div>
 
-        <a class="prev tab-slider-indicator" onclick="plusSlidestwo(-1)"><img src="images/left-arrow.png"
-            alt=""></a></a>
-        <a class="next tab-slider-indicator" onclick="plusSlidestwo(1)"><img src="images/right-arrow.png" alt=""></a>
+        <a class="prev tab-slider-indicator" onclick="plusSlidestwo(-1)"><span class='fa fa-angle-left slider-indicator'></span></a></a>
+        <a class="next tab-slider-indicator" onclick="plusSlidestwo(1)"><span class='fa fa-angle-right slider-indicator'></span></a>
 
       </div>
       <div class="t-mobile-tab-div" id="t-mobile-sec">
@@ -449,7 +451,7 @@
               <h3>T-MOBILE 1</h3>
               <p>Digital B2B2C and B2B with average ordering time reduced by 20% for
                 business and end users.and their customers.</p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+              <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
 
           </div>
@@ -466,7 +468,7 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam
                 repellat debitis incidunt excepturi sequi quae repudiandae eaque ipsum..
               </p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+            <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
 
           </div>
@@ -482,16 +484,15 @@
               <h3>T-MOBILE 3s</h3>
               <p>Digital B2B2C and B2B with average ordering time reduced by 20% for
                 business and end users.and their customers.</p>
-              <button class="btn slider-tab-btn"><a href="" class="btn slider-tab-btn">SEE MORE</a></button>
+              <a href="" class="btn slider-tab-btn">SEE MORE</a>
             </div>
 
           </div>
 
         </div>
 
-        <a class="prev tab-slider-indicator" onclick="plusSlidesthree(-1)"><img src="images/left-arrow.png"
-            alt=""></a></a>
-        <a class="next tab-slider-indicator" onclick="plusSlidesthree(1)"><img src="images/right-arrow.png" alt=""></a>
+        <a class="prev tab-slider-indicator" onclick="plusSlidesthree(-1)"><span class='fa fa-angle-left slider-indicator'></span></a>
+        <a class="next tab-slider-indicator" onclick="plusSlidesthree(1)"><span class='fa fa-angle-right slider-indicator'></span></a>
 
 
 
@@ -507,7 +508,7 @@
           <h2>Resources</h2>
           <img src="images/resourcs-img.png" alt="">
           <div class="button">
-            <button class="btn"><a href="" class="btn"> SEE ALL RESOURCES</a></button>
+           <a href="" class="btn"> SEE ALL RESOURCES</a>
           </div>
 
         </div>
@@ -522,7 +523,7 @@
                   YOUR MONOLITH</h3>
                 <p>A modern alternative to
                   replatforming. and their customers</p>
-                <button class="btn3"><a class="btn3" href="">DOWNLOAD WHITEPAPER</a></button>
+               <a class="resourcs-black-btn" href="">DOWNLOAD WHITEPAPER</a>
               </div>
             </li>
             <li>
@@ -534,7 +535,7 @@
                   YOUR MONOLITH</h3>
                 <p>A modern alternative to
                   replatforming. and their customers</p>
-                <button class="btn3"><a href="" class="btn3">DOWNLOAD WHITEPAPER</a></button>
+                <a href="" class="resourcs-black-btn">DOWNLOAD WHITEPAPER</a>
               </div>
 
             </li>
@@ -547,7 +548,7 @@
                   YOUR MONOLITH</h3>
                 <p>A modern alternative to
                   replatforming. and their customers</p>
-                <button class="btn3"><a href="" class="btn3">DOWNLOAD WHITEPAPER</a></button>
+               <a href="" class="resourcs-black-btn">DOWNLOAD WHITEPAPER</a>
               </div>
             </li>
           </ul>
@@ -571,7 +572,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <a class="btn3 spot-btn" href="">Know more</a>
+            <a class=" spot-btn" href="">Know more</a>
 
           </div>
           <div class="item">
@@ -583,7 +584,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <a class="btn3 spot-btn" href="">WATCH WEBINAR</a>
+            <a class=" spot-btn" href="">WATCH WEBINAR</a>
           </div>
           <div class="item">
             <div class="item-img">
@@ -595,7 +596,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <a class="btn3 spot-btn" href="">READ ARTICLE</a>
+            <a class="spot-btn" href="">READ ARTICLE</a>
           </div>
           <div class="item">
             <div class="item-img">
@@ -606,7 +607,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <a class="btn3 spot-btn" href="">Know more</a>
+            <a class=" spot-btn" href="">Know more</a>
           </div>
           <div class="item">
             <div class="item-img">
@@ -617,7 +618,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <button><a class="btn3 spot-btn" href="">Know more</a></button>
+            <a class=" spot-btn" href="">Know more</a>
           </div>
           <div class="item">
             <div class="item-img">
@@ -628,7 +629,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec iaculis sagittis ligula,
               sit amet interdum elit vehicula quis. erat volutpat.</p>
-            <a class="btn3 spot-btn" href="">Know more</a>
+            <a class=" spot-btn" href="">Know more</a>
           </div>
         </div>
 
@@ -682,7 +683,7 @@
 
 
 
-  </footer>
+  </footer> 
 
 
 
@@ -707,7 +708,10 @@
 
 
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script> 
+  
+ 
+  
 
 
 

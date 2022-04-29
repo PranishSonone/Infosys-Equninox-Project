@@ -6,10 +6,19 @@ var btn1 = document.getElementById("next-btn1")
 var btn2 = document.getElementById("next-btn2")
 btn1.addEventListener("click", (e)=>{
   let slidesn = document.getElementsByClassName("bannerSlides");
+  let  fade = document.querySelectorAll(".bannerSlides")
+       
+  fade.forEach(element =>{
+    element.classList.add("banner-animation-right");
+    element.classList.remove("banner-animation-left");
+    console.log(element)
+    
+  })
+  
   if(slidesn.length+1){
     btn1.classList.add("indicator-change-background2")
     
-    
+    //  fade.style.overflowX = "hidden";
     console.log(slideIndex, 'btn1');
     
   }
@@ -21,16 +30,27 @@ btn1.addEventListener("click", (e)=>{
     btn1.classList.remove("indicator-change-background2");
     btn1.disabled = true;
   }
+ 
 })
 btn2.addEventListener("click", (e)=>{
   console.log(slideIndex, 'btn2')
   let slidesn = document.getElementsByClassName("bannerSlides");
   btn1.classList.add("indicator-change-background2");
   btn1.disabled = false;
+
+  let  fade = document.querySelectorAll(".bannerSlides")
+  fade.forEach(element =>{
+    element.classList.add("banner-animation-left");
+    element.classList.remove("banner-animation-right");
+    console.log(element)
+  })
+ 
+
   if (slidesn.length == slideIndex) {
     btn2.classList.add("indicator-change-background");
     btn2.disabled = true;
   }
+ 
 })
 
 function plusSlides(n) {
@@ -141,6 +161,13 @@ document.getElementById("t-mobile-id").addEventListener("click", function () {
   document.getElementById("young-living-id").classList.remove("background")
 
 });
+// banner-slider-owlCarousel
+
+
+
+
+
+
 // last product slider
 $('.owl-carousel').owlCarousel({
   // loop: true,
@@ -148,7 +175,7 @@ $('.owl-carousel').owlCarousel({
   // autoHeight: true,
   nav: true,
   margin: 10,
-  navText: ["<span class='fa fa-angle-left '></span>", "<span class='fa fa-angle-right'></span>"],
+  navText: ["<span class='fa fa-angle-left slider-indicator '></span>", "<span class='fa fa-angle-right slider-indicator'></span>"],
   dots: false,
   responsive: {
     0: {
@@ -164,4 +191,5 @@ $('.owl-carousel').owlCarousel({
     
   }
 })
+// banner-slider-owlCarousel
  
