@@ -9,8 +9,10 @@ btn1.addEventListener("click", (e)=>{
   let  fade = document.querySelectorAll(".bannerSlides")
        
   fade.forEach(element =>{
-    element.classList.add("banner-animation-right");
-    element.classList.remove("banner-animation-left");
+    
+    element.classList.add("banner-animation-left");
+    element.classList.remove("banner-animation-right");
+    
     console.log(element)
     
   })
@@ -18,7 +20,7 @@ btn1.addEventListener("click", (e)=>{
   if(slidesn.length+1){
     btn1.classList.add("indicator-change-background2")
     
-    //  fade.style.overflowX = "hidden";
+   
     console.log(slideIndex, 'btn1');
     
   }
@@ -40,8 +42,9 @@ btn2.addEventListener("click", (e)=>{
 
   let  fade = document.querySelectorAll(".bannerSlides")
   fade.forEach(element =>{
-    element.classList.add("banner-animation-left");
-    element.classList.remove("banner-animation-right");
+    element.classList.add("banner-animation-right");
+    element.classList.remove("banner-animation-left");
+   
     console.log(element)
   })
  
