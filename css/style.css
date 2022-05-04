@@ -1292,6 +1292,11 @@ nav label #cross {
     /* .banner-img {
         justify-content: unset;
     } */
+    /* .banner-img {
+        display: unset;
+        justify-content: unset;
+       
+    } */
 
 
 }
@@ -1299,6 +1304,15 @@ nav label #cross {
 
 
 @media screen and (max-width: 1366px) {
+    .banner-img {
+        display: unset;
+        justify-content: unset;
+       
+    }
+    .right-e-commerce-image img {
+        width: 70%;
+    }
+    
     html {
         overflow-x: hidden;
     }
