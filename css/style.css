@@ -1307,11 +1307,11 @@ nav label #cross {
     .banner-img {
         /* display: unset; */
         align-items: flex-end;
-        justify-content: unset;
+        /* justify-content: unset; */
        
     }
     .right-e-commerce-image img {
-        width: 80%;
+        width: 65%;
     }
     
     html {
