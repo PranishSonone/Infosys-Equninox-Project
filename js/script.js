@@ -5,11 +5,14 @@ showSlides(slideIndex);
 var btn1 = document.getElementById("next-btn1")
 var btn2 = document.getElementById("next-btn2")
 btn1.addEventListener("click", (e)=>{
+  console.log("btn")
   let slidesn = document.getElementsByClassName("bannerSlides");
   let  fade = document.querySelectorAll(".bannerSlides")
+
+  console.log(fade)
        
   fade.forEach(element =>{
-    
+
     element.classList.add("banner-animation-left");
     element.classList.remove("banner-animation-right");
     
@@ -41,6 +44,7 @@ btn2.addEventListener("click", (e)=>{
   btn1.disabled = false;
 
   let  fade = document.querySelectorAll(".bannerSlides")
+  console.log(fade)
   fade.forEach(element =>{
     element.classList.add("banner-animation-right");
     element.classList.remove("banner-animation-left");

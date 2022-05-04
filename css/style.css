@@ -145,8 +145,8 @@ nav ul li a {
 
 }
 
-nav .ul a:hover,
-nav .ul a.active {
+nav .nav-ul a:hover,
+nav .nav-ul a.active {
 
     padding: 10px 10px;
     background-color: black;
@@ -866,6 +866,10 @@ nav label #cross {
     font-family: 'NeuzeitGro-Bol';
 
 }
+.footer-right-text{
+    display: flex;
+	align-items: end;
+}
 
 .footer-right-text h4 {
     color: #FFFFFF;
@@ -891,9 +895,9 @@ nav label #cross {
 
 }
 
-.footer-text {
+/* .footer-text {
     padding-top: 205px;
-}
+} */
 
 .indicator-change-background {
     background-color: #B8D8FE;
@@ -1416,13 +1420,13 @@ nav label #cross {
 
 @media screen and (max-width: 1024px) {
 
-    nav .ul {
+    nav .nav-ul {
         font-size: 15px;
         position: fixed;
-        /* top: -100%;
-        left: 0px;     ye parameter se upaR SE aayega  */
-        top: 92px;
-        left: -100%;
+        /*top: -100%;
+        left: 0px;
+        yeparameterseupaRSEaayega*/top: 92px;
+        right:-100% ;
         background: #111;
         height: 100vh;
         width: 35%;
@@ -1434,12 +1438,17 @@ nav label #cross {
         -moz-transition: all .5s ease;
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
-    }
+}
 
-    #check:checked~.ul {
+    #check:checked~.nav-ul {
         /* top: 80px; upar se aane ke liyae  */
-        left: 0px;
+        right: 0;
         z-index: 99;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
 
     }
 
@@ -1682,6 +1691,9 @@ nav label #cross {
     .slider-indicator {
         font-size: 40px;
     }
+    .footer-right-text{
+        justify-content: center;
+    }
 
 
 
@@ -1689,7 +1701,7 @@ nav label #cross {
 
 @media screen and (max-width: 768px) {
 
-    nav .ul {
+    nav .nav-ul{
         width: 50%;
         top: 86px
     }
@@ -1910,7 +1922,7 @@ nav label #cross {
         width: 100%;
     }
 
-    nav .ul {
+    nav .nav-ul {
         width: 100%;
         top: 86px;
         text-align: center;
