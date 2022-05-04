@@ -1726,6 +1726,13 @@ nav label #cross {
     .footer-right-text{
         justify-content: center;
     }
+    .make-commerce-btn {
+        font-size: 11px;
+        width: 221px;
+        padding: 12px 13px 12px 12px;
+        background-color: #3564FF;
+        width: 167px;
+    }
 
 
 
