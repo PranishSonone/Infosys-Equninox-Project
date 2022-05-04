@@ -1305,12 +1305,13 @@ nav label #cross {
 
 @media screen and (max-width: 1366px) {
     .banner-img {
-        display: unset;
+        /* display: unset; */
+        align-items: flex-end;
         justify-content: unset;
        
     }
     .right-e-commerce-image img {
-        width: 70%;
+        width: 80%;
     }
     
     html {
@@ -1433,6 +1434,9 @@ nav label #cross {
 }
 
 @media screen and (max-width: 1024px) {
+    .banner-img{
+        justify-content: center;
+    }
 
     nav .nav-ul {
         font-size: 15px;
