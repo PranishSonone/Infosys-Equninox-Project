@@ -587,6 +587,7 @@ nav label #cross {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     /* padding-left: 300px; */
 }
 
@@ -912,6 +913,11 @@ nav label #cross {
 
 .tab-slider-indicator {
     background-color: #3564FF;
+}
+.slider-tab-btn{
+    background-color: #3564FF;
+    color: #FFFFFF;
+    padding: 22px  60px;
 }
 
 .make-commerce-btn {
@@ -1275,6 +1281,7 @@ nav label #cross {
         font-size: 18px;
 
     }
+    
 
     .slider-numbar-change p {
         font-size: 20px;
@@ -1379,7 +1386,7 @@ nav label #cross {
     }
 
     .young-slide-content {
-        padding: 0px 100px;
+        padding: 10px 100px;
     }
 
     .young-living img {
@@ -1628,6 +1635,7 @@ nav label #cross {
     }
 
     .young-slide-content {
+        overflow: hidden;
         flex-direction: column;
     }
 
@@ -2078,7 +2086,7 @@ nav label #cross {
 
     .slider-tab-btn {
         width: 130px;
-        ;
+        
     }
 
     .slider-numbar-change p {
@@ -2101,7 +2109,13 @@ nav label #cross {
         font-size: 12px;
         width: 176px;
     }
-
+    .slider-indicator {
+        font-size: 22px;
+    }
+    .tab-slider-indicator {
+        width: 30px;
+        height: 30px;
+    }
 
 
 
