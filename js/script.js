@@ -60,6 +60,7 @@ btn2.addEventListener("click", (e)=>{
  
 })
 
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -93,6 +94,39 @@ function showSlides(n) {
 let slideIndextwo = 1;
 showSlidestwo(slideIndextwo);
 
+
+var btn3 = document.getElementById("slider-btn-prev")
+var btn4 = document.getElementById("slider-btn-next")
+btn3.addEventListener("click", (e)=>{
+  console.log("btn")
+  
+  let  fade2 = document.querySelectorAll(".young-slid") 
+     console.log(fade2)
+  fade2.forEach(element =>{
+
+    element.classList.add("banner-animation-left");
+    element.classList.remove("banner-animation-right");
+    
+    console.log(element)
+    
+  })
+  
+ 
+ 
+})
+btn4.addEventListener("click", (e)=>{
+  let  fade2 = document.querySelectorAll(".young-slid") 
+     console.log(fade2)
+  fade2.forEach(element =>{
+    element.classList.add("banner-animation-right");
+    element.classList.remove("banner-animation-left");
+   
+    console.log(element)
+  })
+  
+})
+
+
 function plusSlidestwo(n) {
   showSlidestwo(slideIndextwo += n);
 }
@@ -122,8 +156,49 @@ function showSlidestwo(n) {
 // t-mobile slider
 
 let slideIndexthree = 1;
-
 showSlidesthree(slideIndexthree);
+
+
+var btn5 = document.getElementById("slider-btn-prev-t-mobile")
+var btn6 = document.getElementById("slider-btn-next-t-mobile")
+btn5.addEventListener("click", (e)=>{
+  console.log("btn")
+  
+  let  fade3 = document.querySelectorAll(".t-slide") 
+     console.log(fade3)
+  fade3.forEach(element =>{
+
+    element.classList.add("banner-animation-left");
+    element.classList.remove("banner-animation-right");
+    
+    console.log(element)
+    
+  })
+  
+ 
+ 
+})
+btn6.addEventListener("click", (e)=>{
+  let  fade3 = document.querySelectorAll(".t-slide") 
+     console.log(fade3)
+  fade3.forEach(element =>{
+    element.classList.add("banner-animation-right");
+    element.classList.remove("banner-animation-left");
+   
+    console.log(element)
+  })
+  
+})
+
+
+
+
+
+
+
+
+
+
 
 function plusSlidesthree(n) {
   showSlidesthree(slideIndexthree += n);

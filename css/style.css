@@ -524,6 +524,9 @@ nav label #cross {
     padding: 25px 72px;
 
 }
+.right-solution-text-btn:hover{
+    background-color:black;
+}
 
 .make-it-seamless-img {
     width: 97%;
@@ -935,9 +938,11 @@ nav label #cross {
 }
 
 .make-commerce-btn:hover {
-    color: #FFFFFF;
+    color:#FFFFFF;
+    background-color: black ;
     cursor: pointer;
     font-family: 'NeuzeitGroteskW01';
+   
 
 
 }
@@ -945,6 +950,7 @@ nav label #cross {
 .two-btn {
     padding-bottom: 10px;
 }
+
 
 
 
