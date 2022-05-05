@@ -96,6 +96,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
+}
+header{
+    background-color: #F5F5F5;
+}
+.e-commerce-simplified {
+    background-color: #F5F5F5;
 }
 
 .logo {
@@ -117,8 +124,8 @@ nav ul li {
 }
 
 .bannerSlides img{
-    animation:zoom 1s ease;
-    -webkit-animation:zoom 2s ease;
+    animation:zoom 1s ;
+    -webkit-animation:zoom 1s ;
 }
 @keyframes  zoom {
     0%{ transform:scale(2) ;opacity: 0;
@@ -262,8 +269,8 @@ nav label #cross {
 
 .right-e-commerce-image {
     width: 92%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     position: relative;
 }
 
@@ -299,6 +306,8 @@ nav label #cross {
     display: flex;
     padding-bottom: 108px;
     padding-left: 133px;
+    position: absolute;
+	bottom: -100px;
 
 
 }
@@ -356,7 +365,9 @@ nav label #cross {
 }
 
 .make-commerce-human {
+    padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #F5F5F5;
 }
 
 .make-commerce-human-row {
@@ -428,15 +439,26 @@ nav label #cross {
 
 .make-it-for-people-row {
     display: flex;
+    justify-content: space-around;
 }
 
 .make-it-for-people-text h2 {
     font-size: 100px;
+   
     /* letter-spacing: 10px; */
     line-height: 104px;
     font-family: 'NeuzeitGro-Bol';
     padding-left: 143px;
 
+}
+.make-it-for-people-text h2{
+    width: 623px;
+}
+.make-it-future-ready h2{
+    width: 697px;
+}
+.make-if-seamless h2{
+    width: 660px;
 }
 
 .make-it-for-people-text p {
@@ -606,9 +628,14 @@ nav label #cross {
     position: relative;
 
 }
-
+.make-it-for-people-img{
+    display: flex;
+	justify-content: center;
+	align-items: end;
+}
 .make-it-for-people-img img {
-    height: 100%;
+    width: 635px;
+    
 }
 
 .prev,
@@ -790,6 +817,7 @@ nav label #cross {
 }
 
 .spot-btn {
+    font-family: 'NeuzeitGroteskW01';
     padding: 14px 62px;
     background-color: #000000;
     color: #FFFFFF;
@@ -913,6 +941,8 @@ nav label #cross {
 
 .tab-slider-indicator {
     background-color: #3564FF;
+    width: 100px;
+    height: 100px;
 }
 .slider-tab-btn{
     background-color: #3564FF;
@@ -922,7 +952,7 @@ nav label #cross {
 
 .make-commerce-btn {
     font-size: 24px;
-    width: 321px;
+    width: 46%;
     padding: 23px 27px 21px 28px;
     background-color: #3564FF;
     color: #FFFFFF;
@@ -996,11 +1026,12 @@ nav label #cross {
     }
 
     .left-e-commerce-text h2 {
-        padding-top: 170px;
-        line-height: 84px;
+        padding-top: 150px;
         padding-left: 63px;
-        font-size: 8rem;
-        letter-spacing: 8px;
+        line-height: 84px;
+        line-height: 60px;
+        font-size: 6rem;
+        letter-spacing: 2px;
 
     }
 
@@ -1010,12 +1041,12 @@ nav label #cross {
     }
 
     .make-human-img {
-        width: 100%;
+        width:572px;
         height: auto;
     }
 
     .make-commerce-human-text h2 {
-        font-size: 70px;
+        font-size: 60px;
         max-width: 300px;
         line-height: 69px;
     }
@@ -1025,15 +1056,18 @@ nav label #cross {
         font-size: 13px;
     }
 
-    .make-it-for-people-img img {
-        width: 100%;
-        height: 100%;
-    }
 
     .make-it-for-people-text h2 {
-        font-size: 97px;
-        letter-spacing: 4px;
-        line-height: 83px;
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 60px;
+        width: 400px;
+    }
+    .make-it-future-ready h2{
+        width: 400px;
+    }
+    .make-if-seamless h2{
+        width: 400px;
     }
 
     .make-it-for-people-text p {
@@ -1044,9 +1078,7 @@ nav label #cross {
         font-family: 'Montserrat', sans-serif;
     }
 
-    .make-it-for-people-img img {
-        width: 100%;
-    }
+  
 
     .left-solution-icon {
         padding-left: 160px;
@@ -1080,8 +1112,9 @@ nav label #cross {
     }
 
     .make-commerce-btn {
-        font-size: 16px;
-        width: 221px;
+        
+        font-size: 13px;
+        width: 185px;
         padding: 22px 27px 21px 28px;
         background-color: #3564FF;
 
@@ -1105,8 +1138,10 @@ nav label #cross {
         font-size: 12px;
     }
 
-    .indicator {
-        padding-top: 40px;
+   
+    .tab-slider-indicator {
+        width: 50px;
+        height: 50px;
     }
 
 }
@@ -1124,20 +1159,21 @@ nav label #cross {
     } */
     .span-1,
     .span-2 {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
 
     .left-e-commerce-text h2 {
-        line-height: 73px;
+        padding-top: 90px;
+        line-height: 60px;
         font-size: 6rem;
-        letter-spacing: 6px;
+        letter-spacing: 3px;
     }
 
     .make-it-for-people-text h2 {
-        font-size: 89px;
-        letter-spacing: 4px;
-        line-height: 70px;
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 60px;
         padding-left: 68px;
     }
 
@@ -1254,15 +1290,26 @@ nav label #cross {
         text-align: center;
         padding-bottom: 50px;
     }
+    .spotlight-wrapper   .owl-nav{
+        display: flex;
+	justify-content: center;
+	align-items: center;
+    }
 
     .spotlight-wrapper .owl-prev {
-        width: 70px !important;
-        height: 70px !important;
+        width: 50px !important;
+        height: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .spotlight-wrapper .owl-next {
-        width: 70px !important;
-        height: 70px !important;
+        width: 50px !important;
+        height: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .footer-left-link h4 {
@@ -1289,8 +1336,7 @@ nav label #cross {
     }
 
     .right-e-commerce-image img {
-
-        width: 65%;
+width: 500px;
     }
 
     .right-solution-text-btn {
@@ -1299,7 +1345,7 @@ nav label #cross {
     }
 
     .slider-indicator {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     /* .banner-img {
@@ -1310,6 +1356,19 @@ nav label #cross {
         justify-content: unset;
        
     } */
+    .make-it-for-people-text ul li{
+        padding-bottom: 20px;
+    }
+    .make-it-for-people-text ul li img {
+     width: 60px;
+     margin-right: 20px;
+
+    }
+    .make-it-for-people-text h3{
+        font-size: 16px;
+    }
+  
+    
 
 
 }
@@ -1324,17 +1383,14 @@ nav label #cross {
        
     }
     .right-e-commerce-image img {
-        width: 65%;
+        width: 500px;
     }
     
     html {
         overflow-x: hidden;
     }
 
-    .indicator {
-
-        bottom: 20px;
-    }
+    
 
     .slider-numbar-change p {
         font-size: 24px;
@@ -1366,8 +1422,8 @@ nav label #cross {
     }
 
     .make-it-for-people-text h2 {
-        font-size: 67px;
-        letter-spacing: 3px;
+        font-size: 60px;
+        letter-spacing: 1px;
         line-height: 51px;
         padding-left: 46px;
     }
@@ -1394,10 +1450,7 @@ nav label #cross {
     }
 
 
-    .tab-slider-indicator {
-        width: 65px;
-        height: 65px;
-    }
+   
 
     .spotlight-section h2 {
         font-size: 50px;
@@ -1447,6 +1500,7 @@ nav label #cross {
 }
 
 @media screen and (max-width: 1024px) {
+   
     .banner-img{
         justify-content: center;
     }
@@ -1558,7 +1612,8 @@ nav label #cross {
         padding: 0px;
         padding-top: 30px;
         justify-content: center;
-        bottom: -10px;
+       left: 45%;
+       top: 100%;
     }
 
     .left-e-commerce-text {
@@ -1573,12 +1628,27 @@ nav label #cross {
         flex-direction: column-reverse;
     }
 
-    .make-it-for-people-img img {
-        width: 82%;
-
-    }
-
+   
     .make-it-for-people-text h2 {
+        font-size: 54px;
+        padding-top: 20px;
+        letter-spacing: 1px;
+        line-height: 44px;
+        padding-left: 46px;
+        text-align: center;
+        width: 100%;
+    }
+    .make-it-future-ready h2{
+        width: 100%;
+        font-size: 54px;
+        padding-top: 20px;
+        letter-spacing: 1px;
+        line-height: 44px;
+        padding-left: 46px;
+        text-align: center;
+    }
+    .make-if-seamless h2{
+        width: 100%;
         font-size: 54px;
         padding-top: 20px;
         letter-spacing: 1px;
@@ -1739,7 +1809,9 @@ nav label #cross {
 }
 
 @media screen and (max-width: 768px) {
-
+    .make-it-for-people-img img{
+        width: 80%;
+    }
     nav .nav-ul{
         width: 50%;
         top: 86px
@@ -1774,6 +1846,7 @@ nav label #cross {
     }
 
     .indicator {
+        position: unset;
         justify-content: center;
         bottom: -15px;
     }
@@ -1787,6 +1860,9 @@ nav label #cross {
     .span-2 {
         width: 50px;
         height: 50px;
+    }
+    .make-commerce-human {
+        padding-top: 50px;
     }
 
     .make-commerce-human-row {
@@ -1813,6 +1889,7 @@ nav label #cross {
     }
 
     .make-it-for-people-text h2 {
+        font-size: 40px;
         padding-left: 5px;
     }
 
@@ -1828,7 +1905,7 @@ nav label #cross {
 
     .right-solution-text p {
         font-size: 14px;
-        padding: 20px 87px;
+        padding: 35px 87px;
         padding-bottom: 30px;
     }
 
@@ -1953,6 +2030,10 @@ nav label #cross {
         width: 50px !important;
         height: 50px !important;
     }
+    .right-solution-text-btn {
+        padding: 11px 20px;
+        font-size: 10px;
+    }
 
 }
 
@@ -2031,7 +2112,7 @@ nav label #cross {
 
     .right-solution-text p {
         font-size: 14px;
-        padding: 20px 0px;
+        padding: 35px 0px;
 
     }
 
@@ -2079,6 +2160,7 @@ nav label #cross {
     }
 
     .make-commerce-human-text button {
+        width: 100%;
         margin-bottom: 10px;
     }
 
@@ -2113,6 +2195,7 @@ nav label #cross {
     }
 
     .make-commerce-btn {
+       
         font-size: 12px;
         width: 176px;
     }
