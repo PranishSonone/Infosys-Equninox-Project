@@ -1313,6 +1313,9 @@ nav label #cross {
         justify-content: center !important;
         align-items: center !important;
     }
+    .indicator{
+        bottom: -100px;
+    }
 
     .spotlight-wrapper .owl-next {
         width: 50px !important;
