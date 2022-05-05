@@ -430,7 +430,7 @@ nav label #cross {
     /* padding-bottom: 15px; */
 }
 
-.make-commerce-human-text button {}
+
 
 .make-it-for-people {
     background: linear-gradient(#F5F5F5, #FFFFFF);
@@ -1619,7 +1619,9 @@ width: 500px;
     .left-e-commerce-text {
         width: 50%;
     }
-
+    .make-commerce-human{
+        padding-bottom: 30px;
+    }
     .make-commerce-human-row {
         flex-direction: column;
     }
@@ -1863,6 +1865,7 @@ width: 500px;
     }
     .make-commerce-human {
         padding-top: 50px;
+        padding-bottom: 10px;
     }
 
     .make-commerce-human-row {
